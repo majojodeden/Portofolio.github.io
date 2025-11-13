@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Maajid Dhirottsaha - Junior Data Scientist & AI Enthusiast. Transforming data into insights and insights into action.">
+    <meta name="keywords" content="Data Scientist, Machine Learning, Python, SQL, Data Analytics, AI">
+    <meta name="author" content="Maajid Dhirottsaha">
+    <title>Maajid Dhirottsaha | Junior Data Scientist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <span class="logo">MD</span>
+                <span class="brand-text">Maajid Dhirottsaha</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#research" class="nav-link">Research</a></li>
+                <li><a href="#gallery" class="nav-link">Data Gallery</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="home-section">
+        <div class="container">
+            <div class="home-content" data-aos="fade-up">
+                <h1 class="home-headline">
+                    Hi, I'm <span class="highlight">Maajid Dhirottsaha</span>
+                </h1>
+                <h2 class="home-subtitle">Junior Data Scientist & AI Enthusiast</h2>
+                <p class="home-tagline">Transforming data into insights, and insights into action.</p>
+                <p class="home-story">From raw data to real-world impact</p>
+                <div class="home-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="home-visual">
+                <div class="data-visualization">
+                    <canvas id="homeChart"></canvas>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll to explore</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p class="about-intro">
+                        I'm an Informatics Engineering student at <strong>Institut Teknologi PLN (Cohort 2023)</strong>, 
+                        passionate about uncovering patterns in data and building intelligent systems that drive decision-making.
+                    </p>
+                    <p>
+                        My journey into Data Science began with a curiosity about how data can tell stories and reveal 
+                        hidden insights. With over 6 months of experience in data visualization and analytics design, 
+                        I've learned to bridge the gap between technical analysis and visual communication.
+                    </p>
+                    <p>
+                        What excites me most is the intersection of <strong>Artificial Intelligence</strong>, 
+                        <strong>Automation</strong>, and <strong>Real-Time Analytics</strong>—especially in domains like 
+                        Fintech where data-driven decisions can create significant impact.
+                    </p>
+                    <p>
+                        I'm constantly learning and experimenting with new tools and techniques, from building predictive 
+                        models to designing data warehouses that enable organizations to make smarter, faster decisions.
+                    </p>
+                </div>
+                <div class="about-tech" data-aos="fade-left">
+                    <h3>Technical Exposure</h3>
+                    <div class="tech-grid">
+                        <div class="tech-item">
+                            <span class="tech-icon">🐍</span>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">📊</span>
+                            <span>Pandas & NumPy</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">📈</span>
+                            <span>Matplotlib & Seaborn</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🗄️</span>
+                            <span>SQL</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🤖</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                        <div class="tech-item">
+                            <span class="tech-icon">🧠</span>
+                            <span>TensorFlow</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                    <h3 class="category-title">Data Processing</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">BigQuery</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="category-title">Data Visualization</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Tableau</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="category-title">Machine Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">Regression</span>
+                        <span class="skill-tag">Clustering</span>
+                        <span class="skill-tag">Classification</span>
+                        <span class="skill-tag skill-tag-familiar">TensorFlow (Familiar)</span>
+                    </div>
+                </div>
+
+                <div class="skill-category" data-aos="fade-up" data-aos-delay="400">
+                    <h3 class="category-title">Tools & Platforms</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Jupyter Notebook</span>
+                        <span class="skill-tag">Google Colab</span>
+                        <span class="skill-tag">GitHub</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Kubernetes</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-icon">📊</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Real-Time Data Warehouse (SDG 11)</h3>
+                        <p class="project-description">
+                            <strong>Problem:</strong> Urban planners needed a unified view of sustainable city metrics across multiple data sources to track progress toward UN SDG 11 goals.
+                        </p>
+                        <p class="project-description">
+                            <strong>Solution:</strong> Built a data warehouse using SQL for ETL processes and OLAP techniques for multi-dimensional analysis. Implemented star schema design and created materialized views for real-time querying. Used SQL window functions and CTEs for complex aggregations.
+                        </p>
+                        <p class="project-description">
+                            <strong>Result:</strong> Reduced query time from minutes to seconds, enabling real-time dashboards for city sustainability metrics.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">SQL</span>
+                            <span class="tool-tag">OLAP</span>
+                            <span class="tool-tag">Data Modeling</span>
+                            <span class="tool-tag">ETL</span>
+                        </div>
+                        <a href="https://github.com/majojodeden" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-icon">🗺️</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Traveling Salesman Optimization</h3>
+                        <p class="project-description">
+                            <strong>Problem:</strong> Finding the optimal route for visiting multiple locations with minimum cost is computationally expensive for large datasets.
+                        </p>
+                        <p class="project-description">
+                            <strong>Solution:</strong> Implemented Branch and Bound algorithm in Java to solve TSP efficiently. Used priority queues for node exploration and pruning strategies to reduce search space. Applied dynamic programming for memoization of subproblems.
+                        </p>
+                        <p class="project-description">
+                            <strong>Result:</strong> Achieved 40% faster computation compared to brute-force approach for 15+ city routes, with route cost visualization.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Java</span>
+                            <span class="tool-tag">Algorithm</span>
+                            <span class="tool-tag">Optimization</span>
+                            <span class="tool-tag">Graph Theory</span>
+                        </div>
+                        <a href="https://github.com/majojodeden" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-icon">📡</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Microprocessor Data Logger</h3>
+                        <p class="project-description">
+                            <strong>Problem:</strong> Need to collect and analyze sensor data in real-time for monitoring applications without manual data entry.
+                        </p>
+                        <p class="project-description">
+                            <strong>Solution:</strong> Built an IoT system using Arduino for sensor interfacing and Python (Pandas) for data processing. Used serial communication to stream data, implemented data cleaning with NumPy, and created visualizations with Matplotlib. Simulated circuit behavior in Proteus 8.
+                        </p>
+                        <p class="project-description">
+                            <strong>Result:</strong> Automated data collection at 1Hz sampling rate with real-time visualization and CSV export for further analysis.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Arduino</span>
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">Pandas</span>
+                            <span class="tool-tag">Matplotlib</span>
+                            <span class="tool-tag">Proteus 8</span>
+                        </div>
+                        <a href="https://github.com/majojodeden" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <div class="project-placeholder">
+                            <span class="project-icon">👁️</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Image Recognition Experiment</h3>
+                        <p class="project-description">
+                            <strong>Problem:</strong> Automatically classify images into categories without manual labeling.
+                        </p>
+                        <p class="project-description">
+                            <strong>Solution:</strong> Built a Convolutional Neural Network using TensorFlow and Keras. Used data augmentation with NumPy for preprocessing, implemented CNN layers with dropout regularization, and trained on CIFAR-10 dataset. Applied transfer learning techniques.
+                        </p>
+                        <p class="project-description">
+                            <strong>Result:</strong> Achieved 75% accuracy on test set, demonstrating understanding of CNN architecture and computer vision fundamentals.
+                        </p>
+                        <div class="project-tools">
+                            <span class="tool-tag">Python</span>
+                            <span class="tool-tag">TensorFlow</span>
+                            <span class="tool-tag">NumPy</span>
+                            <span class="tool-tag">CNN</span>
+                            <span class="tool-tag">Computer Vision</span>
+                        </div>
+                        <a href="https://github.com/majojodeden" target="_blank" class="project-link">
+                            View on GitHub →
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Research Section -->
+    <section id="research" class="research-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Research & Learning</h2>
+            <div class="research-grid">
+                <article class="research-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="research-date">2024</div>
+                    <h3 class="research-title">Predicting House Prices using Linear Regression</h3>
+                    <p class="research-excerpt">
+                        Exploring supervised learning techniques to predict real estate prices based on features like location, 
+                        size, and amenities. Implemented feature engineering and model evaluation metrics.
+                    </p>
+                    <div class="research-tags">
+                        <span>Machine Learning</span>
+                        <span>Regression</span>
+                        <span>Python</span>
+                    </div>
+                </article>
+
+                <article class="research-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="research-date">2024</div>
+                    <h3 class="research-title">Understanding SCD in Data Warehousing</h3>
+                    <p class="research-excerpt">
+                        Deep dive into Slowly Changing Dimensions (SCD) types and their implementation strategies. 
+                        Analyzed trade-offs between different SCD approaches for historical data tracking.
+                    </p>
+                    <div class="research-tags">
+                        <span>Data Warehousing</span>
+                        <span>SQL</span>
+                        <span>ETL</span>
+                    </div>
+                </article>
+
+                <article class="research-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="research-date">2024</div>
+                    <h3 class="research-title">Kaggle Competition Participation</h3>
+                    <p class="research-excerpt">
+                        Active participation in Kaggle competitions to sharpen data science skills. 
+                        Focus on feature engineering, model selection, and ensemble techniques.
+                    </p>
+                    <div class="research-tags">
+                        <span>Competitions</span>
+                        <span>Ensemble Methods</span>
+                        <span>Feature Engineering</span>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Data Gallery Section -->
+    <section id="gallery" class="gallery-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Data Gallery</h2>
+            <p class="section-subtitle" data-aos="fade-up">Visualizations from various datasets and analyses</p>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="chart-container">
+                        <canvas id="chart1"></canvas>
+                    </div>
+                    <h4>Sales Trend Analysis</h4>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="chart-container">
+                        <canvas id="chart2"></canvas>
+                    </div>
+                    <h4>Customer Segmentation</h4>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="chart-container">
+                        <canvas id="chart3"></canvas>
+                    </div>
+                    <h4>Performance Metrics</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Let's Connect</h3>
+                    <p>I'm always open to discussing data science projects, research opportunities, or collaboration ideas.</p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <a href="mailto:maajid@example.com">maajid@example.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📱</span>
+                            <a href="tel:082167005125">082167005125</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">💼</span>
+                            <a href="https://github.com/majojodeden" target="_blank">GitHub</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📷</span>
+                            <a href="https://instagram.com/mjeeed.d" target="_blank">@mjeeed.d</a>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-primary cv-btn" onclick="alert('CV download link will be added'); return false;">
+                        Download CV
+                    </a>
+                </div>
+                <form class="contact-form" id="contactForm" data-aos="fade-left">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>Built with curiosity and data by <strong>Maajid Dhirottsaha</strong></p>
+            <p class="footer-year">&copy; 2024. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
